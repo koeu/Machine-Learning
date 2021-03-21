@@ -2,7 +2,7 @@ import pandas as pd
 
 # titanic 파일 
 TITANIC_FILE_PATH = './titanic.csv'
-titanic_df = pd.read_csv(TITANIC_FILE_PATH)
+titanic_df = pd.read_csv(TITANIC_FILE_PATH) #CSV로 
 titanic_df.head()
 
 titanic_sex_embarked = titanic_df[['Sex', 'Embarked']]
