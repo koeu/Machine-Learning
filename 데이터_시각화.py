@@ -1,6 +1,8 @@
 %matplotlib inline
 
 import pandas as pd
+import numpy as np
+
 df = pd.read_csv('./broadcast.csv', index_col = 0)
 df.plot()
 df.plot(kind = 'line')
